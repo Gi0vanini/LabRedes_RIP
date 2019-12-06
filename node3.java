@@ -20,9 +20,6 @@ public class node3{
         rtpkt pacote0 = new rtpkt(3, 0, this.cost[3][0], this.cost[3][1], this.cost[3][2], this.cost[3][3]);
         ambiente.toLayer2(pacote0);
 
-        rtpkt pacote1 = new rtpkt(3, 1, this.cost[3][0], this.cost[3][1], this.cost[3][2], this.cost[3][3]);
-        ambiente.toLayer2(pacote1);
-
         rtpkt pacote2 = new rtpkt(3, 2, this.cost[3][0], this.cost[3][1], this.cost[3][2], this.cost[3][3]);
         ambiente.toLayer2(pacote2);
     }
@@ -45,9 +42,6 @@ public class node3{
             /* Enviando os pacotes */
             rtpkt pacote0 = new rtpkt(3, 0, this.cost[3][0], this.cost[3][1], this.cost[3][2], this.cost[3][3]);
             ambiente.toLayer2(pacote0);
-
-            rtpkt pacote1 = new rtpkt(3, 1, this.cost[3][0], this.cost[3][1], this.cost[3][2], this.cost[3][3]);
-            ambiente.toLayer2(pacote1);
 
             rtpkt pacote2 = new rtpkt(3, 2, this.cost[3][0], this.cost[3][1], this.cost[3][2], this.cost[3][3]);
             ambiente.toLayer2(pacote2);

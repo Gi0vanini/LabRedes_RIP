@@ -25,9 +25,6 @@ public class node1{
 
         rtpkt pacote2 = new rtpkt(1, 2, this.cost[1][0], this.cost[1][1], this.cost[1][2], this.cost[1][3]);
         ambiente.toLayer2(pacote2);
-
-        rtpkt pacote3 = new rtpkt(1, 3, this.cost[1][0], this.cost[1][1], this.cost[1][2], this.cost[1][3]);
-        ambiente.toLayer2(pacote3);
     }
 
     public void rtupdate1(rtpkt pacote){
@@ -51,9 +48,6 @@ public class node1{
 
             rtpkt pacote2 = new rtpkt(1, 2, this.cost[1][0], this.cost[1][1], this.cost[1][2], this.cost[1][3]);
             ambiente.toLayer2(pacote2);
-
-            rtpkt pacote3 = new rtpkt(1, 3, this.cost[1][0], this.cost[1][1], this.cost[1][2], this.cost[1][3]);
-            ambiente.toLayer2(pacote3);
         }
     }
 
